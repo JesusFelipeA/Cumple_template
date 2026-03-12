@@ -2,13 +2,13 @@
 window.addEventListener('load', () => {
     Swal.fire({
         title: '¿Gustas que se reproduzca una canción de fondo?',
-        imageUrl: 'img/kuromi.jpg', // Ruta de la imagen
+        imageUrl: 'img/snoopy_mon.png', // Ruta de la imagen
         imageWidth: 100, // Ajusta el tamaño si es necesario
-        imageHeight: 100,
+        imageHeight: 150,
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes',
+        confirmButtonText: 'Si',
         cancelButtonText: 'No',
     }).then((result) => {
         if (result.isConfirmed) {

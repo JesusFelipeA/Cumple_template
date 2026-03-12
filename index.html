@@ -1,160 +1,235 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <title>¡Feliz cumpleaños!!! :)</title>
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <!-- Mi Estilo -->
     <link rel="stylesheet" href="./style/main.css" />
     <style>
-        body {
-            background-color: #1a1a1a;
-            color: #ff99cc;
-            font-family: 'Poppins', sans-serif;
-            text-align: center;
-        }
+      body {
+        background-color: #fff8dc; /* amarillo suave estilo Woodstock */
+        color: #222;
+        font-family: "Comic Sans MS", "Poppins", cursive;
+        text-align: center;
+      }
 
-        .container {
-            padding: 20px;
-        }
+      .container {
+        padding: 20px;
+      }
 
-        .one span {
-            color: #ff66b2;
-            font-weight: bold;
-        }
+      .one span {
+        color: #e63946; /* rojo tipo casita de Snoopy */
+        font-weight: bold;
+      }
 
-        .wish-hbd {
-            color: #ff66b2;
-            font-size: 2em;
-            font-weight: bold;
-        }
+      .wish-hbd {
+        color: #e63946;
+        font-size: 2.2em;
+        font-weight: bold;
+        text-shadow: 2px 2px #ffd166;
+      }
 
-        .baloons img {
-            filter: hue-rotate(270deg);
-        }
+      .three p {
+        font-size: 1.3em;
+        color: #333;
+      }
 
-        .hat {
-            filter: invert(1);
-        }
-        .monche{
-            border-radius: 10%;
-            transform: rotate(90deg);
-        }
+      .text-box {
+        background: #ffffff;
+        border: 3px solid #000;
+        border-radius: 20px;
+        padding: 20px;
+        max-width: 600px;
+        margin: auto;
+        box-shadow: 5px 5px 0px #ffd166;
+      }
+
+      .hbd-chatbox {
+        color: #333;
+        font-size: 1.1em;
+      }
+
+      .fake-btn {
+        display: inline-block;
+        background: #e63946;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+
+      .baloons img {
+        filter: hue-rotate(0deg) saturate(1.2);
+      }
+
+      .hat {
+        filter: none;
+      }
+
+      .profile-picture {
+        border-radius: 50%;
+        border: 5px solid #e63946;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      .monche {
+        border-radius: 15px;
+        border: 4px solid #000;
+        transform: rotate(0deg);
+        box-shadow: 4px 4px 0px #ffd166;
+      }
+
+      .idea-5 span {
+        color: #e63946;
+      }
+
+      .idea-6 span {
+        color: #000;
+        font-weight: bold;
+      }
+
+      .nine p {
+        font-size: 1.2em;
+      }
+
+      #replay {
+        cursor: pointer;
+        color: #e63946;
+        font-weight: bold;
+      }
+
+      .last-smile {
+        font-size: 2em;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <audio class="song" loop play>
-        <source src="./music/Lady Gaga Bruno Mars  Die With A Smile.mp3">
-        </source>
-        Tu navegador puede que no sea compatible con el audio de fondo
+      <source src="./music/Just the Way You Are.mp3" />
+      Tu navegador puede que no sea compatible con el audio de fondo
     </audio>
 
     <div class="container">
-        <div class="one">
-            <h1 class="one">
-                Hola
-                <span id="name">Monse</span>
-            </h1>
-            <img src="./img/m1.jpg" alt="" class="monche" width="200px">
-            <p class="two" id="greetingText">¡Tu nombre me encanta, pero yo te digo Monche con cariño! 🎀</p>
-        </div>
+      <div class="one">
+        <h1 class="one">
+          Holiwis
+          <span id="name">MI NIÑA</span>
+        </h1>
+        <img src="./img/m4.jpg" alt="" class="monche" width="200px" />
+        <p class="two" id="greetingText">
+          ¡Tu nombre me encanta, pero yo te digo Monche con cariño! 🎀
+        </p>
+      </div>
 
-        <div class="three">
-            <p>Hoy es tu día especial, ¡felices 20 añitos! 🎂🎉💜</p>
-        </div>
+      <div class="three">
+        <p>Hoy es tu día especial, ¡felices 20 añitos! 🎂🎉💜</p>
+      </div>
 
-        <div class="four">
-            <div class="text-box">
-                <p class="hbd-chatbox">
-                    ¡Espero que este día esté lleno de risas, abrazos y momentos inolvidables! 🎂✨
-                    Que cada instante de hoy refleje lo especial que eres para todos los que te rodean.
-                    Disfruta de cada regalo, cada palabra bonita y cada muestra de cariño, porque te lo mereces todo.
-                    ¡Feliz cumpleaños, que la felicidad y el amor te acompañen siempre! 🎉🥳💖
-                </p>
-                <p class="fake-btn">Enviar</p>
-            </div>
-            <br><br>
-            <img src="./img/m3.jpg" width="200px">
+      <div class="four">
+        <div class="text-box">
+          <p class="hbd-chatbox">
+            ¡Feliz cumpleaños! Espero que este día esté lleno de sonrisas,
+            abrazos sinceros y momentos que se queden guardados en tu corazón
+            Que cada instante de hoy te recuerde lo especial que eres y lo mucho
+            que iluminas la vida de quienes te rodean. Mereces todo lo bonito de
+            este mundo: alegría, sueños cumplidos y muchas razones para seguir
+            sonriendo. Disfruta cada regalo, cada palabra bonita y cada detalle
+            de este día tan especial.¡Que la felicidad, el amor y las sorpresas
+            lindas te acompañen siempre!
+          </p>
+          <p class="fake-btn">Enviar</p>
         </div>
+        <br /><br />
+        <img src="./img/m6.jpeg" width="200px" />
+      </div>
 
-        <div class="five">
-            <p class="idea-1">Eso era lo que iba a hacer.</p>
-            <p class="idea-2">Pero luego me detuve.</p>
-            <p class="idea-3">
-                Me di cuenta de que quería hacer algo<br>
-                <strong>especial</strong>
-                .
-            </p>
-            <p class="idea-4">Porque,</p>
-            <p class="idea-5">
-                Tú eres especial
-                <span>:)</span>
-            </p>
-            <p class="idea-6">
-                <span>P</span>
-                <span>E</span>
-                <span>R</span>
-                <span>O</span>
-                <span> </span><span></span>
-                <span>M</span>
-                <span>U</span>
-                <span>Y</span>
-                <span> </span><span></span>
-                <span>E</span>
-                <span>S</span>
-                <span>P</span>
-                <span>E</span>
-                <span>C</span>
-                <span>I</span>
-                <span>A</span>
-                <span>L</span>
-            </p>
-        </div>
+      <div class="five">
+        <p class="idea-1">Eso era lo que iba a hacer.</p>
+        <p class="idea-2">Pero luego me detuve.</p>
+        <p class="idea-3">
+          Me di cuenta de que quería hacer algo<br />
+          <strong>especial</strong>
+          .
+        </p>
+        <p class="idea-4">Porque,</p>
+        <p class="idea-5">
+          Tú eres especial
+          <span>:)</span>
+        </p>
+        <p class="idea-6">
+          <span>P</span>
+          <span>E</span>
+          <span>R</span>
+          <span>O</span>
+          <span> </span><span></span>
+          <span>M</span>
+          <span>U</span>
+          <span>Y</span>
+          <span> </span><span></span>
+          <span>E</span>
+          <span>S</span>
+          <span>P</span>
+          <span>E</span>
+          <span>C</span>
+          <span>I</span>
+          <span>A</span>
+          <span>L</span>
+        </p>
+      </div>
 
-        <div class="six">
-            <img src="./img/m2.jpg" alt="profile" class="profile-picture" id="imagePath" />
-            <img src="img/hat.svg" alt="hat" class="hat" />
-            <div class="wish">
-                <h3 class="wish-hbd">¡Feliz Cumpleaños!</h3>
-                <h5 id="wishText">¡Que todos tus deseos se hagan realidad y la felicidad te acompañe siempre! 🎀✨</h5>
-            </div>
+      <div class="six">
+        <img
+          src="./img/m5.jpeg"
+          alt="profile"
+          class="profile-picture"
+          id="imagePath"
+        />
+        <img src="img/hat.svg" alt="hat" class="hat" />
+        <div class="wish">
+          <h3 class="wish-hbd">¡Feliz Cumpleaños!</h3>
+          <h5 id="wishText">
+            ¡Que todos tus deseos se hagan realidad y la felicidad te acompañe
+            siempre! 🎀✨
+          </h5>
         </div>
+      </div>
 
-        <div class="seven">
-            <div class="baloons">
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-            </div>
+      <div class="seven">
+        <div class="baloons">
+          <img src="img/ballon2.svg" alt="" />
+          <img src="img/ballon1.svg" alt="" />
+          <img src="img/ballon3.svg" alt="" />
         </div>
+      </div>
 
-        <div class="eight">
-            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="20" />
-            </svg>
-        </div>
+      <div class="eight">
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+      </div>
 
-        <div class="nine">
-            <p>Ahora dime, ¿te gustó la sorpresa? 😊💜</p>
-            <p id="replay">O haz clic si quieres verlo de nuevo. 🔁</p>
-            <p class="last-smile">🎀</p>
-        </div>
+      <div class="nine">
+        <p>Ahora dime, ¿te gustó la sorpresa? 😊❤️</p>
+        <p id="replay">O haz clic si quieres verlo de nuevo. 🔁</p>
+        <p class="last-smile">🎀</p>
+      </div>
     </div>
-
-</body>
-<!-- Greensock -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-<!-- Sweetalert -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script type="application/javascript" src="./script/main.js"></script>
-
+  </body>
+  <!-- Greensock -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <!-- Sweetalert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="application/javascript" src="./script/main.js"></script>
 </html>
